@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+.budget-label {
+    display: flex;
+    align-items: center;
+  }
+  
+  .budget-label span {
+    margin-right: 10px;
+  }
+  
+  .budget-label select {
+    border: none;
+    background: url(${currencyDropdownImage}) no-repeat right center;
+    padding: 5px 30px 5px 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .budget-label select::-ms-expand {
+    display: none;
+  }
+  
+  .budget-input {
+    margin-top: 10px;
+  }
+  
+  .budget-input input[type='number'] {
+    width: 100px;
+    padding: 5px;
+  }
+  
+  .budget-input button {
+    margin-left: 10px;
+    padding: 5px 10px;
+  }
+  
